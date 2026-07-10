@@ -70,3 +70,62 @@ header .header-content {
     margin-left: 40%;
 
 }
+
+
+.speakers-section {
+    background-color: #fff;
+    color: #000;
+    padding: 60px 20px;
+    border-radius: 10px;
+    width: 100%;
+     max-width: 1200px;
+    margin: 0 auto; 
+}
+
+    
+
+.section-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.speakers-grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    align-items: center;
+}
+
+.speaker-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.speaker-image {
+    width: 100%;
+    height: auto;
+}
+
+.speaker-details {
+    padding: 20px;
+}
+
+.speaker-topic {
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.speaker-name {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.speaker-title {
+    color: #555;
+    margin-bottom: 0;
+}
